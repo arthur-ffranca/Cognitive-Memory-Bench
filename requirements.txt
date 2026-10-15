@@ -1,0 +1,2 @@
+# A adicionar quando as integracoes com API, Qdrant e embeddings forem implementadas.
+# O prototipo offline (cmb.py) usa apenas a biblioteca padrao do Python.

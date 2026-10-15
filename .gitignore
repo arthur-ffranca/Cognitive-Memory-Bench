@@ -1,0 +1,26 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Datasets and experiment outputs
+data/locomo/*
+!data/locomo/.gitkeep
+results/*
+!results/.gitkeep
+*.gguf
+
+# Local Qdrant volumes (if bind-mounted in the future)
+qdrant_storage/
+
+# OS and IDE
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
